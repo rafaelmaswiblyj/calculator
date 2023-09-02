@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200;300&family=Playfair+Display:wght@600;900&family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: antiquewhite;
+    text-align: end;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#pantalla{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+#form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    height: 80%;
+    gap: 5px;
+    margin: 0px;
+}
+
+.btn:last-child{
+    grid-column: span 2;
+}
+
+.btn{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #ffe4c4;
+    color: black;
+}
+
+.btn:hover{
+    background-color: #ffce93;
+}
